@@ -1,0 +1,120 @@
+
+.carousel-caption {
+    margin: auto;
+    width: 600px;
+    position: absolute;
+    bottom: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.navbar>.container{
+    font-size: 20px;
+    font-weight: 700;
+}
+.carousel-caption h5 {
+    font-family: 'Comic Neue', cursive;
+    font-size: 50px;
+    font-weight: 400;
+letter-spacing: 3px;
+    line-height: 60px;
+}
+.btn {
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    padding: .375rem 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 25px;
+}
+.card-img {
+    border: 5px solid #AA1133;
+    border-radius: 25px;
+}
+.card-item{
+    width: 50%;
+    margin-top: 15px;
+}
+.card-item .btn {
+    color:#000
+}
+.column{
+    float: left;
+}
+.row{
+    position: relative;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column-last{
+    position: absolute;
+    margin: 300px 300px;
+}
+.detail{
+    position: relative;
+}
+.dark-bg{
+    background-color: #000;
+    margin: 10px 0;
+    padding: 30px 0;
+    height: 730px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size:25px;
+}
+.center a{
+    color: #fff;
+    text-decoration: underline;
+}
+.card{
+    background-color: #000;
+    border-radius: 10px;
+}
+.card img{
+    margin: 15px 0 0 15px;
+    border-radius: 10px;
+}
+.card-text{
+    font-size: 20px;
+}
+.Hero{
+    background-image: url('image/heroimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Hero .container > h3,
+.Hero .container > p,
+.Hero .container > h4
+{
+    text-align: center;
+    color: #400B17;
+}
+.Hero .container > h3{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+}
+.Hero .container > h4{
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+}
+.Hero .container > p{
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+.text-color-light{
+    color: #EBE7E8;
+}
+.text-color-danger{
+    color: #AA1133;
+}
